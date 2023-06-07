@@ -8,45 +8,37 @@
  --buttons-color:#E7E9FC;
 
 }
-ul {
-    list-style-type: none;
-}
+
 body {
     background-color: var(--color-white);
     font-family: "Roboto", sans-serif;
-    color:var(--background-color)
-}
-
-footer {
-    background-color: var(--background-color);
+    color:#434455;
 }
 .logo  {
-    text-decoration: none;
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
+    color: var(--web-button-color);
+    }
+
+.footer-logo {
+    color:var(--footer);
 }
 
-.logoweb {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    color: var(--web-button-color);
-}
-.logostudio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
+.link {
     color: var(--background-color);
+    text-decoration: none
+    
 }
-.footer-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    color: var(--footer);
+.list {
+    list-style: none;
 }
-.headertext{
-    text-decoration: none;
+
+.list-type {
     color: var(--background-color);
     font-size:16px;
     font-weight:500;
@@ -54,23 +46,20 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.headertext:hover,
-.headertext:focus,
-.headertext:active {
+.list-type:hover,
+.list-type:focus {
     color: var(--focus-color);
 }
 
-.link {
-    text-decoration: uder;
+.adress {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.link:hover,
-.link:focus,
-.link:active {
+.adress:hover,
+.adress:focus {
     color: var(--focus-color);
 }
 
@@ -81,30 +70,25 @@ footer {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-white);
 }
 .herobutton {
     cursor: pointer;
     background: var(--web-button-color);
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-}
-.herobutton:hover,
-.herobutton:focus,
-.herobutton:active {
-    background-color:var(--focus-color);
-}
-.buttontext {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
 }
+.herobutton:hover,
+.herobutton:focus {
+    background-color:var(--focus-color);
+}
+
 .title {
     font-weight: 500;
     font-size: 20px;
@@ -113,22 +97,24 @@ footer {
     color: var(--background-color);
 }
 .title-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-.we {
+.we-make {
     color: var(--background-color);
     font-size:  36px;
+    text-align: center;
     line-height: 1.1;
     font-weight:: 700;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .section3 {
     background-color: var(--footer);
 }
+
 .team {
     font-weight: 500;
     font-size: 20px;
@@ -143,45 +129,37 @@ footer {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+
+.btn-first {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    background-color: var(--focus-color);
+    cursor: pointer;
+}
+.btn-first:hover,
+.btn-first:focus {
+    color: #FFFFFF
+    background-color: var(--web-button-color);
+}
+
+.footer {
+    background-color: var(--background-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer);
-}
-.all {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-white);
-    }
-.button-all {
-    background: var(--focus-color);
-    border-radius: 4px;
-    cursor: pointer;
-}
-.button-all:hover,
-.button-all:focus,
-.button-all:active {
-    background-color: var(--web-button-color);
-}
-
-.buttons {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--web-button-color);
-}
-.other-button {
-    background: var(--buttons-color);
-    border-radius: 4px;
-    cursor: pointer;
-}
-.other-button:hover,
-.other-button:focus,
-.other-button:active {
-    background-color: var(--buttons-color)
 }
