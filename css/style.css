@@ -1,0 +1,183 @@
+:root {
+ --color-white:#FFFFFF;
+ --background-color:#2E2F42;
+ --web-button-color:#4D5AE5;
+ --focus-color:#404BBF;
+ --text-color:#434455;
+ --footer:#F4F4FD;
+ --buttons-color:#E7E9FC;
+
+}
+ul {
+    list-style-type: none;
+}
+body {
+    background-color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+    color:var(--background-color)
+}
+
+footer {
+    background-color: var(--background-color);
+}
+.logo  {
+    text-decoration: none;
+}
+
+.logoweb {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--web-button-color);
+}
+.logostudio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--background-color);
+}
+.footer-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--footer);
+}
+.headertext{
+    text-decoration: none;
+    color: var(--background-color);
+    font-size:16px;
+    font-weight:500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.headertext:hover,
+.headertext:focus,
+.headertext:active {
+    color: var(--focus-color);
+}
+
+.link {
+    text-decoration: uder;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus,
+.link:active {
+    color: var(--focus-color);
+}
+
+.hero {
+    background-color: var(--background-color);
+}
+.herotext {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+.herobutton {
+    cursor: pointer;
+    background: var(--web-button-color);
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+}
+.herobutton:hover,
+.herobutton:focus,
+.herobutton:active {
+    background-color:var(--focus-color);
+}
+.buttontext {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+.title-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.we {
+    color: var(--background-color);
+    font-size:  36px;
+    font-weight:: 900;
+    letter-spacing: 0.02em;
+}
+.section3 {
+    background-color: var(--footer);
+}
+.team {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+.rank {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--footer);
+}
+.all {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    }
+.button-all {
+    background: var(--focus-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-all:hover,
+.button-all:focus,
+.button-all:active {
+    background-color: var(--web-button-color);
+}
+
+.buttons {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--web-button-color);
+}
+.other-button {
+    background: var(--buttons-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.other-button:hover,
+.other-button:focus,
+.other-button:active {
+    background-color: var(--buttons-color)
+}
