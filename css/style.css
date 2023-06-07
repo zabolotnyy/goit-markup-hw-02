@@ -28,20 +28,21 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.16;
     color: var(--web-button-color);
 }
 .logostudio {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     color: var(--background-color);
 }
 .footer-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     color: var(--footer);
 }
 .headertext{
@@ -49,7 +50,7 @@ footer {
     color: var(--background-color);
     font-size:16px;
     font-weight:500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -63,8 +64,8 @@ footer {
     text-decoration: uder;
     color: var(--text-color);
     font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
+    font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .link:hover,
@@ -77,9 +78,9 @@ footer {
     background-color: var(--background-color);
 }
 .herotext {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--color-white);
 }
@@ -98,29 +99,31 @@ footer {
     background-color:var(--focus-color);
 }
 .buttontext {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
 }
 .title {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-color);
 }
 .title-text {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
 .we {
     color: var(--background-color);
     font-size:  36px;
-    font-weight:: 900;
+    line-height: 1.1;
+    font-weight:: 700;
     letter-spacing: 0.02em;
 }
 .section3 {
@@ -129,27 +132,28 @@ footer {
 .team {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-color);
 }
 .rank {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
 .footer-text {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer);
 }
 .all {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
     }
@@ -165,9 +169,9 @@ footer {
 }
 
 .buttons {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--web-button-color);
 }
