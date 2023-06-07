@@ -6,7 +6,6 @@
  --text-color:#434455;
  --footer:#F4F4FD;
  --buttons-color:#E7E9FC;
-
 }
 
 body {
@@ -14,6 +13,7 @@ body {
     font-family: "Roboto", sans-serif;
     color:#434455;
 }
+
 .logo  {
     font-family: "Raleway",sans-serif;
     font-weight: 800;
@@ -21,17 +21,21 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
     color: var(--web-button-color);
     }
 
 .footer-logo {
     color:var(--footer);
 }
+.link-footer {
+    color: var(--color-white);
+    text-decoration: none;
+    }
 
 .link {
     color: var(--background-color);
-    text-decoration: none
+    text-decoration: none;
     
 }
 .list {
@@ -53,6 +57,7 @@ body {
 
 .adress {
     color: var(--text-color);
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -106,10 +111,13 @@ body {
     color: var(--background-color);
     font-size:  36px;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.11;
     font-weight:: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+.staff {
+    background-color: var(--color-white);
 }
 .section3 {
     background-color: var(--footer);
@@ -137,13 +145,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
-    background-color: var(--focus-color);
+    background-color: var(--web-button-color);
     cursor: pointer;
 }
 .btn-first:hover,
 .btn-first:focus {
-    color: #FFFFFF
-    background-color: var(--web-button-color);
+    color: #FFFFFF;
+    background-color: var(--footer);
 }
 
 .footer {
