@@ -110,6 +110,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+.title-text:hover,
+.title-text:focus {
+    color: var(--focus-color);
+}
 .we-make {
     color: var(--background-color);
     font-size:  36px;
@@ -147,14 +151,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--color-white);
-    background-color: var(--web-button-color);
+    color: var(--web-button-color);
+    background-color: var(--footer);
     cursor: pointer;
 }
 .btn-first:hover,
 .btn-first:focus {
     color: #FFFFFF;
-    background-color: var(--footer);
+    background-color: var(--focus-color);
 }
 
 .footer {
