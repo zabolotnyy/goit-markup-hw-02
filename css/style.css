@@ -13,7 +13,9 @@ body {
     font-family: "Roboto", sans-serif;
     color:#434455;
 }
-
+.link {
+    text-decoration: none;
+}
 .logo  {
     font-family: "Raleway",sans-serif;
     font-weight: 800;
@@ -21,9 +23,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: var(--web-button-color);
     }
+.linkcolor {
+    color: var(--background-color);
+}
+    
 
 .footer-logo {
     color:var(--footer);
@@ -32,12 +37,6 @@ body {
     color: var(--color-white);
     text-decoration: none;
     }
-
-.link {
-    color: var(--background-color);
-    text-decoration: none;
-    
-}
 .list {
     list-style: none;
 }
@@ -53,6 +52,10 @@ body {
 .list-type:hover,
 .list-type:focus {
     color: var(--focus-color);
+}
+
+.adresslink {
+    font-style: normal;
 }
 
 .adress {
