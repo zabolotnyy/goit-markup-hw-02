@@ -123,11 +123,12 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+.sectionthree {
+    background-color: var(--footer);
+}
 .staff {
     background-color: var(--color-white);
-}
-.section3 {
-    background-color: var(--footer);
 }
 
 .team {
