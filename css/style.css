@@ -104,6 +104,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--background-color);
 }
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
 .title-text {
     font-size: 16px;
     line-height: 1.5;
@@ -164,12 +170,12 @@ body {
 
 .footer {
     background-color: var(--background-color);
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
 }
 
 .footer-text {
